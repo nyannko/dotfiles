@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 for file in ~/.{bash_prompt,bash_exports}; do
-        [ -r "$file" ] && [ -f "$file" ] && source "$file";
-    done;
+    [ -r "$file" ] && [ -f "$file" ] && source "$file";
+done;
 unset file;
 
 #alias

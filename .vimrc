@@ -5,7 +5,7 @@ filetype plugin on
 
 " Turn off vi compatible
 set nocompatible
-    
+
 " Enable mouse
 set mouse=a
 
@@ -76,7 +76,7 @@ autocmd BufWritePost $MYVIMRC source $MYVIMRC
 " Vim built-in man page
 source $VIMRUNTIME/ftplugin/man.vim
 
-" vundle 
+" Vundle 
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
