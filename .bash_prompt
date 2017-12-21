@@ -34,5 +34,5 @@ fi;
 PS1="\[${green}\]\u:"; # user 
 PS1+="\[${green}\]\W "; # working path
 #PS1+="\[${green}\]\A "; # working directory full path
-PS1+="\[${green}\]\A \$${reset} "; # time 
+PS1+="\[${green}\]\A \$\[${reset}\] "; # time 
 export PS1;
