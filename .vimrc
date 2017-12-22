@@ -118,3 +118,5 @@ let g:ycm_server_python_interpreter = '/usr/local/bin/python3'
 "let g:ycm_python_binary_path = '/usr/local/bin/python3'
 let g:ycm_server_keep_logfiles = 1
 let g:ycm_server_log_level = 'debug'
+" Color
+highlight Pmenu ctermfg=15 ctermbg=0 guifg=#a54925 guibg=#688dac

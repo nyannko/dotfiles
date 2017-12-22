@@ -8,12 +8,17 @@ unset file;
 #alias
 alias ll="ls -al"
 alias vi="/usr/local/bin/vim"
-alias tcp='lsof -i -n -P | grep TCP'
+alias tcp="lsof -i -n -P | grep TCP"
+alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
 
-#color ll
+# UTF-8
+export LC_ALL=en_US.UTF-8  
+export LANG=en_US.UTF-8
+
+# color ll
 export CLICOLOR=1
 
-#color grep
+# color grep
 export GREP_OPTIONS='--color=always'
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
