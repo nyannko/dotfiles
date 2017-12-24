@@ -11,7 +11,7 @@ function doIt() {
         --exclude "*.swp" \
         --exclude "*.swo" \
         -avh --no-perms . ~;
-    source ~/.bash_profile;
+    source ~/.bashrc;
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then

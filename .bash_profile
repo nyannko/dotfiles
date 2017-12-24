@@ -6,7 +6,7 @@ done;
 unset file;
 
 #alias
-alias ll="ls -al"
+alias ll="ls -alF"
 alias vi="/usr/local/bin/vim"
 alias tcp="lsof -i -n -P | grep TCP"
 alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
