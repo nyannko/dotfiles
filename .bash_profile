@@ -20,19 +20,8 @@ export CLICOLOR=1
 
 # color grep
 export GREP_OPTIONS='--color=always'
-export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
-# added by Anaconda2 4.0.0 installer
-export PATH="//anaconda/bin:$PATH"
-
-# added by Anaconda2 4.3.0 installer
-export PATH="~/anaconda/bin:$PATH"
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '~/Downloads/google-cloud-sdk/path.bash.inc' ]; then source '~/Downloads/google-cloud-sdk/path.bash.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '~/Downloads/google-cloud-sdk/completion.bash.inc' ]; then source '~/Downloads/google-cloud-sdk/completion.bash.inc'; fi
+export PATH="/usr/local/sbin:$PATH"
 
 # nvm path
 export NVM_DIR="$HOME/.nvm"
