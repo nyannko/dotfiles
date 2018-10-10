@@ -46,7 +46,10 @@ set cursorcolumn
 nnoremap j gj
 nnoremap k gk
 
-"Copy and paste
+" Expand the current directory :edit/write/saveas/read %%
+cnoremap <expr> %% getcmdtype( ) == ':' ? expand('%:h').'/' : '%%'
+
+" Copy and paste
 vnoremap <Leader>y "+y
 nmap <Leader>p "+p
 
@@ -143,7 +146,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 " YCM
 "let g:ycm_global_ycm_extra_conf = '~/.ycm_global_extra_conf'
-let g:ycm_server_python_interpreter = '/usr/local/bin/python3'
+"let g:ycm_server_python_interpreter = '/usr/local/bin/python3'
 "let g:ycm_server_python_interpreter = '/usr/bin/python'
 "let g:ycm_python_binary_path = '/usr/local/bin/python3'
 let g:ycm_server_keep_logfiles = 1
